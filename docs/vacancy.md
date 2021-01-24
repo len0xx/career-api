@@ -8,7 +8,7 @@
 ------------ | ------------- | -------------
 id | integer | Идентификатор вакансии
 title | string | Название вакансии
-create_date | date | Дата создания
+create_date | date | Дата создания (в формате YYYY-mm-dd hh:mm:ss)
 min_salary | integer | Минимальная зарплата
 max_salary | integer | Максимальная зарплата
 categories | array | Категории, к которым относится вакансия, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
@@ -17,7 +17,7 @@ regions | array | Области, привязанные к вакансии, в
 company | object | Компания, к которой относится вакансия, в виде объекта типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 description | string | Описание вакансии
 duties | string | Обязанности
-employment | string | Вид трудоустройства (см. [трудойстройство](https://github.com/len0xx/career-api/blob/main/docs/terms.md#трудоустройство))
+employment | string | Вид трудоустройства (см. [занятость](https://github.com/len0xx/career-api/blob/main/docs/terms.md#трудоустройство))
 contact_email | string | Контактный email
 contact_phone | string | Контактный номер телефона
 contact_fio | string | ФИО контактного лица
