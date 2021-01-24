@@ -16,12 +16,12 @@
 
 ## Доступные методы
 
-* [auth](https://github.com/len0xx/career-api/blob/master/docs/auth.md)
-* [update-token](https://github.com/len0xx/career-api/blob/master/docs/update-token.md)
-* [userinfo](https://github.com/len0xx/career-api/blob/master/docs/userinfo.md)
-* [get-categories](https://github.com/len0xx/career-api/blob/master/docs/get-categories.md)
-* [get-vacancy](https://github.com/len0xx/career-api/blob/master/docs/get-vacancy.md)
-* [get-vacancies](https://github.com/len0xx/career-api/blob/master/docs/get-vacancies.md)
-* [create-vacancy](https://github.com/len0xx/career-api/blob/master/docs/create-vacancy.md)
-* [edit-vacancy](https://github.com/len0xx/career-api/blob/master/docs/edit-vacancy.md)
-* [delete-vacancy](https://github.com/len0xx/career-api/blob/master/docs/delete-vacancy.md)
+* [auth — Получить access_token](https://github.com/len0xx/career-api/blob/master/docs/auth.md)
+* [update-token — Обновить access_token](https://github.com/len0xx/career-api/blob/master/docs/update-token.md)
+* [userinfo — Получить основную информацию о пользователе](https://github.com/len0xx/career-api/blob/master/docs/userinfo.md)
+* [get-categories — Получить список категорий вакансий](https://github.com/len0xx/career-api/blob/master/docs/get-categories.md)
+* [get-vacancy — Получить конкретню вакансию по ID](https://github.com/len0xx/career-api/blob/master/docs/get-vacancy.md)
+* [get-vacancies — Получить список вакансий компании авторизованного пользователя](https://github.com/len0xx/career-api/blob/master/docs/get-vacancies.md)
+* [create-vacancy — Создать вакансию](https://github.com/len0xx/career-api/blob/master/docs/create-vacancy.md)
+* [edit-vacancy — Редактировать вакансию](https://github.com/len0xx/career-api/blob/master/docs/edit-vacancy.md)
+* [delete-vacancy — Удалить вакансию](https://github.com/len0xx/career-api/blob/master/docs/delete-vacancy.md)
