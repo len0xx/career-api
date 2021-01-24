@@ -4,6 +4,8 @@
 
 Возвращает только статус выполнения (true|false)
 
+Полное описание структуры вакансии можно найти здесь — [vacancy](https://github.com/len0xx/career-api/blob/main/docs/vacancy.md)
+
 ### Для получения вакансии необходимо выполнить запрос:
 ```
 POST /api/delete-vacancy/
