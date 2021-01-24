@@ -59,4 +59,4 @@ POST /api/auth/
 * `the code has already expired` — у переданного `code` истёк срок жизни
 * `the code has already been used. you can not use it again` — переданный `code` уже был использован
 * `invalid account_id` — очень редкая ошибка, возникает в том случае, если аккаунт пользователя на момент запроса уже не существует
-* `the server could not create the access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `the server could not create the access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

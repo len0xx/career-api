@@ -59,3 +59,4 @@ POST /api/userinfo/
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
 * `invalid scope for this method` — у переданного токена нет доступа к этому методу
+* `could not collect the user data` — во время получения данных пользователя на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

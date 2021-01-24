@@ -91,4 +91,4 @@ POST /api/get-vacancy/
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
 * `invalid scope for this method` — у переданного токена нет доступа к этому методу
-* `could not get the vacancy` — во время получения вакансии на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `could not collect the vacancy` — во время получения вакансии на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

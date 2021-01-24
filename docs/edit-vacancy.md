@@ -84,7 +84,7 @@ POST /api/edit-vacancy/
 * `this vacancy is deleted` — эта вакансия удалена
 * `the vacancy you are looking for does not exist` — не существует вакансии с таким значением `vacancy_id`
 * `you are not allowed to edit this vacancy` — вакансия относится к другой компании, поэтому с помощью переданного `access_token` нельзя редактировать эту вакансию
-* `non-existent category id given` — передан id несуществующей категории
+* `non-existent category id given` — передан `id` несуществующей категории
 * `invalid access_token` — передан несуществующий `access_token`
 * `the access_token has already expired` — срок жизни токена истёк
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
@@ -92,4 +92,4 @@ POST /api/edit-vacancy/
 * `invalid city` — передан некорректное название города
 * `invalid company` — компании, с которой связан пользователь не существует
 * `invalid scope for this method` — у переданного токена нет доступа к этому методу
-* `could not create the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `could not create the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

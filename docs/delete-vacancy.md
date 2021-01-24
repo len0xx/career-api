@@ -54,4 +54,4 @@ POST /api/delete-vacancy/
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
 * `invalid scope for this method` — у переданного токена нет доступа к этому методу
-* `could not delete the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `could not delete the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

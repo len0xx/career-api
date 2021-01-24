@@ -112,12 +112,9 @@ POST /api/get-vacancies/
 * `insufficient arguments passed` — не передан хотя бы один из обязательных параметров
 * `invalid client_id` — передан несуществующий `client_id`
 * `wrong client_secret` — передан некорректный `client_secret` (неподходящий для переданного `client_id`)
-* `the fields title and description are required` — пустое или отсутствующее значение полей `title` или `description`
 * `invalid access_token` — передан несуществующий `access_token`
 * `the access_token has already expired` — срок жизни токена истёк
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
-* `invalid city` — передан некорректное название города
-* `invalid company` — компании, с которой связан пользователь не существует
 * `invalid scope for this method` — у переданного токена нет доступа к этому методу
-* `could not create the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `could not collect the vacancies` — во время получения вакансий на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее

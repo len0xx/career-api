@@ -54,4 +54,4 @@ POST /api/update-token/
 * `invalid scope` — передано некорректное значение `scope` (см. [user-authorization](https://github.com/len0xx/career-api/blob/main/docs/user-authorization.md#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-scope))
 * `invalid access_token` — передан несуществующий `access_token`
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
-* `the server could not create access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `the server could not create access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее
