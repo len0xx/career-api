@@ -14,6 +14,17 @@ POST /api/auth/
 * `redirect_uri` — Адрес, на который пользователь будет перенаправлен после того как подтвердит авторизацию
 * `code` — Код, который будет выдан после того, как пользователь подвердит авторизацию
 
+### Пример запроса
+```javascript
+{
+    "client_id": 0,
+    "client_secret": "b35ef4fe21294ac5",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://len0xx.space/authorize/success.php",
+    "code": "0F105F4A110ECB23"
+}
+```
+
 ### Пример ответа:
 ```javascript
 {
