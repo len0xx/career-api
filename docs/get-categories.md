@@ -60,10 +60,12 @@ POST /api/get-categories/
 * `insufficient arguments passed` — не передан хотя бы один из обязательных параметров
 * `invalid client_id` — передан несуществующий `client_id`
 * `wrong client_secret` — передан некорректный `client_secret` (неподходящий для переданного `client_id`)
-* `wrong redirect_uri` — некорректный `redirect_uri` (не совпадает с тем, что был указан при регистрации приложения)
-* `invalid grant_type` — значение `grant_type` не равно `authorization_code`
-* `invalid code`— передан несуществующий `code`
-* `the code has already expired` — у переданного `code` истёк срок жизни
-* `the code has already been used. you can not use it again` — переданный `code` уже был использован
-* `invalid account_id` — очень редкая ошибка, возникает в том случае, если аккаунт пользователя на момент запроса уже не существует
-* `the server could not create the access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `the fields title and description are required` — пустое или отсутствующее значение полей `title` или `description`
+* `invalid access_token` — передан несуществующий `access_token`
+* `the access_token has already expired` — срок жизни токена истёк
+* `this access_token is no longer available` — существует более новый токен для этого пользователя
+* `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
+* `invalid city` — передан некорректное название города
+* `invalid company` — компании, с которой связан пользователь не существует
+* `invalid scope for this method` — у переданного токена нет доступа к этому методу
+* `could not create the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее

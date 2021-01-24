@@ -48,9 +48,10 @@ POST /api/update-token/
 * `invalid client_id` — передан несуществующий `client_id`
 * `wrong client_secret` — передан некорректный `client_secret` (неподходящий для переданного `client_id`)
 * `wrong redirect_uri` — некорректный `redirect_uri` (не совпадает с тем, что был указан при регистрации приложения)
-* `invalid grant_type` — значение `grant_type` не равно `authorization_code`
-* `invalid code`— передан несуществующий `code`
-* `the code has already expired` — у переданного `code` истёк срок жизни
-* `the code has already been used. you can not use it again` — переданный `code` уже был использован
-* `invalid account_id` — очень редкая ошибка, возникает в том случае, если аккаунт пользователя на момент запроса уже не существует
-* `the server could not create the access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
+* `the refresh_token has already expired` — истёк срок жизни `refresh_token`
+* `this refresh_token has already been used` — переданный `refresh_token` уже был использован
+* `wrong refresh_token for this access_token` — передан некорректный `refresh_token` (неподходящий для переданного `access_token`)
+* `invalid scope` — передано некорректное значение `scope` (см. [user-authorization](https://github.com/len0xx/career-api/blob/main/docs/user-authorization.md#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-scope))
+* `invalid access_token` — передан несуществующий `access_token`
+* `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
+* `the server could not create access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
