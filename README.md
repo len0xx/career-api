@@ -12,18 +12,18 @@
 
 ## Авторизация пользователя
 
-Чтобы получить `access_token` необходимо сначала авторизовать пользователя. Сделать это можно, перенаправив пользователя по [этой ссылке](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/office/authorize). После того, как пользователь подтвердит доступ Вашему приложению к своим данным, он будет перенаправлен по ссылке, которую вы укажете в качестве `redirect_uri` при регистрации приложения. Вместе с этим перенаправлением в адресе в качестве GET параметра будет передан код доступа `code`, который необходимо обменять на `access_token` при помощи метода [auth](https://github.com/len0xx/career-api/blob/master/docs/auth.md).
+Чтобы получить `access_token` необходимо сначала авторизовать пользователя. Сделать это можно, перенаправив пользователя по [этой ссылке](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/office/authorize). После того, как пользователь подтвердит доступ Вашему приложению к своим данным, он будет перенаправлен по ссылке, которую вы укажете в качестве `redirect_uri` при регистрации приложения. Вместе с этим перенаправлением в адресе в качестве GET параметра будет передан код доступа `code`, который необходимо обменять на `access_token` при помощи метода [auth](https://github.com/len0xx/career-api/blob/main/docs/auth.md).
 
-Подробнее об авторизации пользователей тут — [user-authorization](https://github.com/len0xx/career-api/edit/main/docs/user-authorization.md)
+Подробнее об авторизации пользователей тут — [user-authorization](https://github.com/len0xx/career-api/blob/main/docs/user-authorization.md)
 
 ## Доступные методы
 
-* [auth — Получить access_token](https://github.com/len0xx/career-api/blob/master/docs/auth.md)
-* [update-token — Обновить access_token](https://github.com/len0xx/career-api/blob/master/docs/update-token.md)
-* [userinfo — Получить основную информацию о пользователе](https://github.com/len0xx/career-api/blob/master/docs/userinfo.md)
-* [get-categories — Получить список категорий вакансий](https://github.com/len0xx/career-api/blob/master/docs/get-categories.md)
-* [get-vacancy — Получить конкретню вакансию по ID](https://github.com/len0xx/career-api/blob/master/docs/get-vacancy.md)
-* [get-vacancies — Получить список вакансий компании авторизованного пользователя](https://github.com/len0xx/career-api/blob/master/docs/get-vacancies.md)
-* [create-vacancy — Создать вакансию](https://github.com/len0xx/career-api/blob/master/docs/create-vacancy.md)
-* [edit-vacancy — Редактировать вакансию](https://github.com/len0xx/career-api/blob/master/docs/edit-vacancy.md)
-* [delete-vacancy — Удалить вакансию](https://github.com/len0xx/career-api/blob/master/docs/delete-vacancy.md)
+* [auth — Получить access_token](https://github.com/len0xx/career-api/blob/main/docs/auth.md)
+* [update-token — Обновить access_token](https://github.com/len0xx/career-api/blob/main/docs/update-token.md)
+* [userinfo — Получить основную информацию о пользователе](https://github.com/len0xx/career-api/blob/main/docs/userinfo.md)
+* [get-categories — Получить список категорий вакансий](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md)
+* [get-vacancy — Получить конкретню вакансию по ID](https://github.com/len0xx/career-api/blob/main/docs/get-vacancy.md)
+* [get-vacancies — Получить список вакансий компании авторизованного пользователя](https://github.com/len0xx/career-api/blob/main/docs/get-vacancies.md)
+* [create-vacancy — Создать вакансию](https://github.com/len0xx/career-api/blob/main/docs/create-vacancy.md)
+* [edit-vacancy — Редактировать вакансию](https://github.com/len0xx/career-api/blob/main/docs/edit-vacancy.md)
+* [delete-vacancy — Удалить вакансию](https://github.com/len0xx/career-api/blob/main/docs/delete-vacancy.md)
