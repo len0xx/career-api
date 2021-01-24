@@ -86,5 +86,5 @@ POST /api/create-vacancy/
 * `account with such account_id does not exist` — пользователя с таким `id` (привязанным к `access_token`) не существует
 * `invalid city` — передан некорректное название города
 * `invalid company` — компании, с которой связан пользователь не существует
-* `invalid scope for this method` — у переданного токена нет доступа к этому методу
+* `invalid scope for this method` — у переданного токена нет доступа к этому методу (см. [user-authorization](https://github.com/len0xx/career-api/blob/main/docs/user-authorization.md#%D0%B2%D0%BE%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D1%8B%D0%B5-%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-scope))
 * `could not create the vacancy` — во время создания вакансии на сервере произошла непредвиденная ошибка, пожалуйста, попробуйте повторить запрос позднее
