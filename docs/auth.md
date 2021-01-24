@@ -35,7 +35,7 @@ POST /api/auth/
     "error": "the code has already expired"
 }
 ```
-Такой ответ говорит о том, что срок жизни токена истёк и необходимо обновить этот токен с помощью [update-token](https://github.com/len0xx/career-api/blob/master/docs/update-token.md) или заполучить новый
+Такой ответ говорит о том, что срок жизни токена истёк и необходимо обновить этот токен с помощью [update-token](https://github.com/len0xx/career-api/blob/main/docs/update-token.md) или заполучить новый
 
 ### Возможные ошибки
 * `empty request` — получено пустое тело запроса
