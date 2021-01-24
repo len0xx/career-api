@@ -25,3 +25,27 @@ POST /api/auth/
 ```
 
 Данный `access_token` имеет срок жизни, равный **одному часу** с момента выдачи. При повторном запросе ранее выданный токен **отзывается** и выдается новый.
+
+## Ошибки
+
+В случае ошибки будет выдан соответствующий ответ с описанием проблемы. Например:
+```javascript
+{
+    "success": false,
+    "error": "the code has already expired"
+}
+```
+Такой ответ говорит о том, что срок жизни токена истёк и необходимо обновить этот токен с помощью [update-token](https://github.com/len0xx/career-api/blob/master/docs/update-token.md) или заполучить новый
+
+### Возможные ошибки
+* `empty request` — получено пустое тело запроса
+* `insufficient arguments passed` — не передан хотя бы один из обязательных параметров
+* `invalid client_id` — передан несуществующий `client_id`
+* `wrong client_secret` — передан некорректный `client_secret` (неподходящий для переданного `client_id`)
+* `wrong redirect_uri` — некорректный `redirect_uri` (не совпадает с тем, что был указан при регистрации приложения)
+* `invalid grant_type` — значение `grant_type` не равно `authorization_code`
+* `invalid code`— передан несуществующий `code`
+* `the code has already expired` — у переданного `code` истёк срок жизни
+* `the code has already been used. you can not use it again` — переданный `code` уже был использован
+* `invalid account_id` — очень редкая ошибка, возникает в том случае, если аккаунт пользователя на момент запроса уже не существует
+* `the server could not create the access_token, please try again` — во время создания `access_token` на сервере произошла непредвиденная ошибка, попробуйте повторить запрос позднее
