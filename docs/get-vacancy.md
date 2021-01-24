@@ -1,6 +1,6 @@
 # Получение вакансии
 
-Метод для получение отдельной вакансии по её `ID`
+Метод для получения отдельной вакансии по её `ID`
 
 Вакансии возвращаются в виде объекта вакансии. Описание объекта можно посмотреть по ссылке — [vacancy](https://github.com/len0xx/career-api/blob/main/docs/vacancy.md)
 
@@ -12,9 +12,18 @@ POST /api/get-vacancy/
 ### В теле запроса необходимо передать следующие параметры:
 * `client_id` — Идентификтор приложения (см. [регистрация приложения](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/wp-admin/admin.php?page=apps))
 * `client_secret` — Секретный код приложения (см. [регистрация приложения](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/wp-admin/admin.php?page=apps))
-* `redirect_uri` — Адрес, на который пользователь будет перенаправлен после того как подтвердит авторизацию
 * `access_token` — Токен доступа (см. [получение токена](https://github.com/len0xx/career-api/blob/main/docs/auth.md))
 * `vacancy_id` — Идентификтор вакансии, которую Вы хотите получить
+
+### Пример запроса
+```javascript
+{
+    client_id: 0,
+    client_secret: "b35ef4fe21294ac5",
+    access_token: "8248D5F9C68BF23F9C296D3B10119F01",
+    vacancy_id: 56789
+}
+```
 
 ### Пример ответа:
 ```javascript
