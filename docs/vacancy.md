@@ -11,9 +11,9 @@ title | string | Название вакансии
 create_date | date | Дата создания
 min_salary | integer | Минимальная зарплата
 max_salary | integer | Максимальная зарплата
-categories | array | Категории, к которым относится вакансия, в виде массива объектов класса [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
-cities | array | Города, привязанные к вакансии, в виде массива объектов класса [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
-regions | array | Области, привязанные к вакансии, в виде массива объектов класса [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
+categories | array | Категории, к которым относится вакансия, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
+cities | array | Города, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
+regions | array | Области, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 description | string | Описание вакансии
 duties | string | Обязанности
 employment | string | Вид трудоустройства (см. [трудойстройство](https://github.com/len0xx/career-api/blob/main/docs/terms.md#трудоустройство))
