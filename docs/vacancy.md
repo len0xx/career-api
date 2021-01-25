@@ -8,7 +8,7 @@
 ------------ | ------------- | -------------
 id | integer | Идентификатор вакансии
 title | string | Название вакансии
-create_date | date | Дата создания (в формате YYYY-mm-dd hh:mm:ss)
+create_date | date | Дата создания (в формате `YYYY-mm-dd hh:mm:ss`)
 min_salary | integer | Минимальная зарплата
 max_salary | integer | Максимальная зарплата
 categories | array | Категории, к которым относится вакансия, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
