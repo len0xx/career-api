@@ -19,10 +19,10 @@ description | string | Описание вакансии
 duties | string | Обязанности
 experience | string | Опыт работы (см. [опыт работы](https://github.com/len0xx/career-api/blob/main/docs/experience.md))
 employment | string | Вид занятости (см. [занятость](https://github.com/len0xx/career-api/blob/main/docs/employment.md))
-contact_email | string | Контактный email
-contact_phone | string | Контактный номер телефона
+contact_email | string | Контактный адрес электронной почты
+contact_phone | string | Контактный номер телефона в формате `+7 (999) 888 7654`
 contact_fio | string | ФИО контактного лица
-requirements | string | Требования
+requirements | string | Требования к соискателю
 working_conditions | string | Условия работы
 
 ### Пример вакансии:
