@@ -17,7 +17,8 @@ regions | array | Области, привязанные к вакансии, в
 company | object | Компания, к которой относится вакансия, в виде объекта типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 description | string | Описание вакансии
 duties | string | Обязанности
-employment | string | Вид занятости (см. [занятость](https://github.com/len0xx/career-api/blob/main/docs/terms.md#трудоустройство))
+experience | string | Опыт работы (см. [опыт работы](https://github.com/len0xx/career-api/blob/main/docs/experience.md))
+employment | string | Вид занятости (см. [занятость](https://github.com/len0xx/career-api/blob/main/docs/employment.md))
 contact_email | string | Контактный email
 contact_phone | string | Контактный номер телефона
 contact_fio | string | ФИО контактного лица
@@ -57,6 +58,7 @@ working_conditions | string | Условия работы
     "description": "",
     "duties": "<p>• Проведение ремонтно-восстановительных и эксплуатационных работ на линиях связи и оборудовании клиентов (ПК, маршрутизаторы и пр.) в установленный регламентом срок и в соответствии с принятыми нормами эксплуатации объектов связи;<br \/>\n• Дежурства по заранее утвержденному графику.<\/p>\n",
     "employment": "full",
+    "experience": "no",
     "contact_email": "personal@itmh.ru",
     "contact_phone": "+7 (800) 755 70-00",
     "contact_fio": "Отдел персонала",

@@ -25,6 +25,7 @@ POST /api/create-vacancy/
 * `max_salary` — Максимальная заработная плата (целое число)
 * `categories` — Массив категорий новой вакансии (в виде id) (все категории можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
 * `city` — Город, в котором актуальна новая вакансия (в виде названия города)
+* `experience` — Опыт работы (см. [experience](https://github.com/len0xx/career-api/blob/main/docs/experience.md)),
 * `employment` — Занятость (см. [employments](https://github.com/len0xx/career-api/blob/main/docs/employments.md)),
 * `requirements` — Текстовое описание требований к соискателю
 * `contact_fio` — ФИО контактного лица (строка)
@@ -44,10 +45,16 @@ POST /api/create-vacancy/
     "min_salary": 40000,
     "max_salary": 60000,
     "categories": [
-        620, 534
+        41, 534
     ],
-    "city": "Екатеринбург",
+    "cities": [
+        "Екатеринбург"
+    ],
+    "regions": [
+        "Свердловская область"
+    ],
     "employment": "full",
+    "experience": "onethree",
     "requirements": "Требования к соискателю",
     "contact_fio": "Иванов Иван Иванович",
     "contact_phone": "+7 (800) 500 4040",
