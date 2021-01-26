@@ -30,8 +30,8 @@ POST /api/create-vacancy/
 * `employment` — Занятость (см. [employments](https://github.com/len0xx/career-api/blob/main/docs/employments.md)),
 * `requirements` — Текстовое описание требований к соискателю
 * `contact_fio` — ФИО контактного лица (строка)
-* `contact_phone` — Контактный номер (строка, в формате `+7 (999) 888 7654`)
-* `contact_email` — Контактый email (строка)
+* `contact_phone` — Контактный номер телефона (строка, в формате `+7 (999) 888 7654`)
+* `contact_email` — Контактый адрес электронной почты (строка)
 * `working_conditions` — Условия работы (строка)
 
 ### Пример запроса
