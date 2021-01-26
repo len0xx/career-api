@@ -24,13 +24,14 @@ POST /api/edit-vacancy/
 * `description` — Текстовое описание вакансии (строка)
 * `min_salary` — Минимальная заработная плата (целое число)
 * `max_salary` — Максимальная заработная плата (целое число)
-* `categories` — Массив категорий вакансии (в виде id) (все категории можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
-* `city` — Город, в котором актуальна новая вакансия (в виде названия города)
+* `categories` — Массив категорий новой вакансии (в виде `id`) (все категории можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
+* `cities` — Массив названий городов (все города можно получить с помощью [get-cities](https://github.com/len0xx/career-api/blob/main/docs/get-cities.md))
+* `regions` — Массив названий регионов (все регионы можно получить с помощью [get-regions](https://github.com/len0xx/career-api/blob/main/docs/get-regions.md))
 * `experience` — Опыт работы (см. [experience](https://github.com/len0xx/career-api/blob/main/docs/experience.md)),
 * `employment` — Занятость (см. [employments](https://github.com/len0xx/career-api/blob/main/docs/employments.md)),
 * `requirements` — Текстовое описание требований к соискателю
 * `contact_fio` — ФИО контактного лица (строка)
-* `contact_phone` — Контактный номер (строка, в формате +7 (999) 888 7654)
+* `contact_phone` — Контактный номер (строка, в формате `+7 (999) 888 7654`)
 * `contact_email` — Контактый email (строка)
 * `working_conditions` — Условия работы (строка)
 
