@@ -4,6 +4,7 @@
 
 ## Объекты
 
+* [experiences — Опыт работы](https://github.com/len0xx/career-api/blob/main/docs/experiences.md)
 * [employments — Занятость](https://github.com/len0xx/career-api/blob/main/docs/employments.md)
 * [terms — Термины](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 * [vacancy — Вакансии](https://github.com/len0xx/career-api/blob/main/docs/vacancy.md)
