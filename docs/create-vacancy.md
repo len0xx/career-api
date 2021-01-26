@@ -77,10 +77,10 @@ POST /api/create-vacancy/
 ```javascript
 {
     "success": false,
-    "error": "invalid vacancy_id"
+    "error": "non-existent category id given"
 }
 ```
-Такой ответ говорит о том, что вакансия с таким `vacancy_id` не существует
+Такой ответ говорит о том, что был передан некорретный `id` в поле `categories`
 
 ### Возможные ошибки
 * `empty request` — получено пустое тело запроса
