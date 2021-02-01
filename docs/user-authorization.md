@@ -8,8 +8,8 @@ GET https://времякарьеры.рф/office/authorize/
 
 ### При этом необходимо передать следующие параметры:
 * `client_id` — Идентификтор приложения (см. [регистрация приложения](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/wp-admin/admin.php?page=apps))
-* `client_secret` — Секретный код приложения (см. [регистрация приложения](https://xn--80adjbxl0aeb4ii6a.xn--p1ai/wp-admin/admin.php?page=apps))
 * `redirect_uri` — Адрес, на который пользователь будет перенаправлен после того как подтвердит авторизацию
+* `response_type = code`
 * `scope` — К каким данным Вы хотите получить доступ (см. ниже)
 
 ### Возможные значения scope:
