@@ -25,8 +25,7 @@ POST /api/edit-vacancy/
 * `min_salary` — Минимальная заработная плата (целое число)
 * `max_salary` — Максимальная заработная плата (целое число)
 * `categories` — Массив категорий новой вакансии (в виде `id`) (все категории можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
-* `cities` — Массив названий городов (все города можно получить с помощью [get-cities](https://github.com/len0xx/career-api/blob/main/docs/get-cities.md))
-* `regions` — Массив названий регионов (все регионы можно получить с помощью [get-regions](https://github.com/len0xx/career-api/blob/main/docs/get-regions.md))
+* `areas` — Массив названий населённых пунктов (все населённые пункты можно получить с помощью [get-areas](https://github.com/len0xx/career-api/blob/main/docs/get-areas.md))
 * `experience` — Опыт работы (см. [experience](https://github.com/len0xx/career-api/blob/main/docs/experience.md)),
 * `employment` — Занятость (см. [employments](https://github.com/len0xx/career-api/blob/main/docs/employments.md)),
 * `requirements` — Текстовое описание требований к соискателю
@@ -50,11 +49,8 @@ POST /api/edit-vacancy/
     "categories": [
         41, 540
     ],
-    "cities": [
+    "areas": [
         "Москва", "Екатеринбург"
-    ],
-    "regions": [
-        "Московская область", "Свердловская область"
     ],
     "employment": "project",
     "experience": "no",
@@ -95,8 +91,7 @@ POST /api/edit-vacancy/
 * `the vacancy you are looking for does not exist` — не существует вакансии с таким значением `vacancy_id`
 * `you are not allowed to edit this vacancy` — вакансия относится к другой компании, поэтому с помощью переданного `access_token` нельзя редактировать эту вакансию
 * `non-existent category id given` — передан `id` несуществующей категории (список категорий можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
-* `non-existent city name given` — передано несуществующее название города (список категорий можно получить с помощью [get-cities](https://github.com/len0xx/career-api/blob/main/docs/get-cities.md))
-* `non-existent region name given` — передано несуществующее название региона (список категорий можно получить с помощью [get-regions](https://github.com/len0xx/career-api/blob/main/docs/get-regions.md))
+* `non-existent area name given` — передано несуществующее название населённого пункта (список категорий можно получить с помощью [get-areas](https://github.com/len0xx/career-api/blob/main/docs/get-areas.md))
 * `invalid access_token` — передан несуществующий `access_token`
 * `the access_token has already expired` — срок жизни токена истёк
 * `this access_token is no longer available` — существует более новый токен для этого пользователя

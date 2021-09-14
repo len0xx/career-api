@@ -12,8 +12,7 @@ create_date | date | Дата создания (в формате `YYYY-mm-dd hh
 min_salary | integer | Минимальная зарплата
 max_salary | integer | Максимальная зарплата
 categories | array | Категории, к которым относится вакансия, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
-cities | array | Города, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
-regions | array | Области, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
+areas | array | Населённые пункты, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 company | object | Компания, к которой относится вакансия, в виде объекта типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 description | string | Описание вакансии
 duties | string | Обязанности
@@ -39,16 +38,11 @@ working_conditions | string | Условия работы
             "title": "Информационные технологии, интернет, телеком"
         }
     ],
-    "cities": [
+    "areas": [
         {
             "id": 612,
+            "parent": 361,
             "title": "Екатеринбург"
-        }
-    ],
-    "regions": [
-        {
-            "id": 763,
-            "title": "Свердловская область"
         }
     ],
     "company": {
