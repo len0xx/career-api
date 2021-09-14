@@ -86,7 +86,7 @@ POST /api/create-vacancy/
 * `wrong client_secret` — передан некорректный `client_secret` (неподходящий для переданного `client_id`)
 * `the fields title and description are required` — пустое или отсутствующее значение полей `title` или `description`
 * `non-existent category id given` — передан `id` несуществующей категории (список категорий можно получить с помощью [get-categories](https://github.com/len0xx/career-api/blob/main/docs/get-categories.md))
-* `non-existent city name given` — передано несуществующее название населённого пункта (список населённых пунктов можно получить с помощью [get-areas](https://github.com/len0xx/career-api/blob/main/docs/get-areas.md))
+* `non-existent area name given` — передано несуществующее название населённого пункта (список населённых пунктов можно получить с помощью [get-areas](https://github.com/len0xx/career-api/blob/main/docs/get-areas.md))
 * `invalid access_token` — передан несуществующий `access_token`
 * `the access_token has already expired` — срок жизни токена истёк
 * `this access_token is no longer available` — существует более новый токен для этого пользователя
