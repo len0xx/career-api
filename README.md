@@ -25,6 +25,7 @@
 * [get-areas — Получить список населённых пунктов](https://github.com/len0xx/career-api/blob/main/docs/get-areas.md)
 * [get-vacancy — Получить конкретню вакансию по ID](https://github.com/len0xx/career-api/blob/main/docs/get-vacancy.md)
 * [get-vacancies — Получить список вакансий компании авторизованного пользователя](https://github.com/len0xx/career-api/blob/main/docs/get-vacancies.md)
+* [get-responses — Получить список откликов на вакансии компании авторизованного пользователя](https://github.com/len0xx/career-api/blob/main/docs/get-responses.md)
 * [create-vacancy — Создать вакансию](https://github.com/len0xx/career-api/blob/main/docs/create-vacancy.md)
 * [edit-vacancy — Редактировать вакансию](https://github.com/len0xx/career-api/blob/main/docs/edit-vacancy.md)
 * [delete-vacancy — Удалить вакансию](https://github.com/len0xx/career-api/blob/main/docs/delete-vacancy.md)
