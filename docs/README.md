@@ -9,6 +9,7 @@
 * [terms — Термины](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 * [vacancy — Вакансии](https://github.com/len0xx/career-api/blob/main/docs/vacancy.md)
 * [response — Отклики](https://github.com/len0xx/career-api/blob/main/docs/response.md)
+* [resume — Резюме](https://github.com/len0xx/career-api/blob/main/docs/resume.md)
 
 ## Методы
 
