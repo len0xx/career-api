@@ -10,7 +10,7 @@ id | integer | Идентификатор отклика
 vacancy_id | integer | Идентификатор вакансии
 user_id | integer | Идентификатор откликнувшегося пользователя
 resume | resume | Объект типа [resume](https://github.com/len0xx/career-api/blob/main/docs/resume.md)
-status | string | Статус отклика (orded, decline, interview, abort или '')
+status | enum | Статус отклика (`orded`, `decline`, `interview`, `abort` или `''`)
 comment | string | Комментарий
 showed | integer | Был ли показан отклик (1 или 0)
 showed_date | date | Дата показа (в формате `YYYY-mm-dd hh:mm:ss`)
@@ -62,10 +62,10 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
                     "degree": "bachelor"
                 }
             ],
-            "email": "email@site.com",
+            "email": "contact@email.com",
             "employment": "full",
-            "experience": "yes",
-            "firstname": "Прохор",
+            "experience": "onethree",
+            "firstname": "Иван",
             "gender": "male",
             "has_car": "no",
             "hobby": "Люблю читать книги и статьи в свободное время",
@@ -90,14 +90,14 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
                     "end_year": "0",
                     "no_end": "yes",
                     "position": "Веб-разработчик",
-                    "duties": "Разработка сайта Время Карьеры, в том числе API Время Карьеры и чатбот ВКонтакте",
+                    "duties": "Поддержка веб-сайтов основных проектов университета",
                     "achievs": ""
                 },
                 {
                     "company": "Прософт-Системы",
                     "start_year": "2021-07-05",
                     "end_year": "2021-08-01",
-                    "no_end": "",
+                    "no_end": "no",
                     "position": "Инженер-разработчик C++",
                     "duties": "Разработка ПО для управления и настройки ПЛК Regul RX00",
                     "achievs": ""
@@ -105,7 +105,7 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
             ],
             "position": "Веб-разработчик",
             "relocative": "no",
-            "salary": "30000",
+            "salary": "50000",
             "schedule": "remote",
             "skills": [
                 {
@@ -127,12 +127,12 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
                 "instagram": "@time_career",
                 "behance": "https://behance.com/time_career",
                 "habr": "https://habr.com/time_career",
-                "github": "https://github.com/len0xx/"
+                "github": "https://github.com/len0xx"
             },
             "spheres": [
                 51
             ],
-            "surname": "Минин"
+            "surname": "Иванов"
         },
         "id": 6812,
         "create_date": "2021-06-24 06:05:55",

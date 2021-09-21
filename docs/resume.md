@@ -27,11 +27,11 @@ courses | array | Массив пройденных курсов (см. [objects
 driving_license | array | Массив категорий прав (возможные значения: `a, b, c, d, e, be, ce, de, tm, tb`)
 education | array | Массив образований (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 email | string | Электронная почта
-employment | string | Тип трудоустройства (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
-experience | string | Опыт работы (`no` - Нет опыта, `one_three` - От 1 до 3 лет)
+employment | enum | Тип трудоустройства (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
+experience | enum | Опыт работы (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 firstname | string | Имя
-gender | string | Пол (`male` или `female`)
-has_car | string | Имеется ли собственный автомобиль (`yes` или `no`)
+gender | enum | Пол (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
+has_car | enum | Имеется ли собственный автомобиль (`yes` или `no`)
 hobby | string | Хобби
 languages | array | Массив иностранных языков (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 metro_station | string | Станция метро
@@ -40,7 +40,7 @@ phone | string | Номер телефона
 photo_loaded | integer | Загружена ли фотография (`1` или `0`)
 places_of_work | array | Массив мест работы (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 position | string | Желаемая позиция
-relocative | string | Согласен ли на переезд (`yes` или `no`)
+relocative | enum | Согласен ли на переезд (`yes` или `no`)
 salary | string | Желаемая заработная плата
 schedule | string | Расписание работы
 skills | array | Массив навыков (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
@@ -87,10 +87,10 @@ surname | string | Фамилия
                 "degree": "bachelor"
             }
         ],
-        "email": "email@site.com",
+        "email": "contact@email.com",
         "employment": "full",
-        "experience": "yes",
-        "firstname": "Прохор",
+        "experience": "onethree",
+        "firstname": "Иван",
         "gender": "male",
         "has_car": "no",
         "hobby": "Люблю читать книги и статьи в свободное время",
@@ -115,14 +115,14 @@ surname | string | Фамилия
                 "end_year": "0",
                 "no_end": "yes",
                 "position": "Веб-разработчик",
-                "duties": "Разработка сайта Время Карьеры, в том числе API Время Карьеры и чатбот ВКонтакте",
+                "duties": "Поддержка веб-сайтов основных проектов университета",
                 "achievs": ""
             },
             {
                 "company": "Прософт-Системы",
                 "start_year": "2021-07-05",
                 "end_year": "2021-08-01",
-                "no_end": "",
+                "no_end": "no",
                 "position": "Инженер-разработчик C++",
                 "duties": "Разработка ПО для управления и настройки ПЛК Regul RX00",
                 "achievs": ""
@@ -130,7 +130,7 @@ surname | string | Фамилия
         ],
         "position": "Веб-разработчик",
         "relocative": "no",
-        "salary": "30000",
+        "salary": "50000",
         "schedule": "remote",
         "skills": [
             {
@@ -152,16 +152,16 @@ surname | string | Фамилия
             "instagram": "@time_career",
             "behance": "https://behance.com/time_career",
             "habr": "https://habr.com/time_career",
-            "github": "https://github.com/len0xx/"
+            "github": "https://github.com/len0xx"
         },
         "spheres": [
             51
         ],
-        "surname": "Минин"
+        "surname": "Иванов"
     },
     "id": 6812,
     "create_date": "2021-06-24 06:05:55",
     "change_date": "2021-09-21 05:42:33",
-    "deleted": "0"
+    "deleted": 0
 }
 ```
