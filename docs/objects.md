@@ -37,7 +37,7 @@ degree | enum | Академическая степень (см. ниже)
 company | string | Название компании
 start_year | date | Дата начала работы (В формате `YYYY-m-d` (редко - `YYYY`))
 end_year | date | Дата окончания работы (В формате `YYYY-m-d` (редко - `YYYY`))
-no_end | enum | Устроен на данный момент (`yes` или `no`)
+no_end | enum | Устроен ли на данный момент (`yes` или `no`)
 position | string | Позиция/должность
 duties | string | Обязанности
 achievs | string | Достижения
@@ -186,8 +186,8 @@ female | Женский
 
 Сокращённое название | Описание
 ------------ | -------------
-yes | То же самое, что true в boolean
-no | То же самое, что false в boolean
+yes | То же самое, что `true` в boolean
+no | То же самое, что `false` в boolean
 
 ## Академические степени
 
