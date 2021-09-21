@@ -7,12 +7,12 @@
 Название поля | Тип данных | Описание
 ------------ | ------------- | -------------
 id | integer | Идентификатор резюме
-attachment_id | integer | Идентификатор прикреплённого документа (для обычных резюме — null)
+attachment_id | integer | Идентификатор прикреплённого документа (для обычных резюме — `null`)
 link | string | Ссылка на резюме
 photo_url | string | Ссылка на фотографию
 create_date | date | Дата создания (в формате `YYYY-mm-dd hh:mm:ss`)
 change_date | date | Дата обновления (в формате `YYYY-mm-dd hh:mm:ss`)
-deleted | integer | Удалено ли резюме (1 или 0)
+deleted | integer | Удалено ли резюме (`1` или `0`)
 data | object | Описание ниже
 
 ### Структура объекта данных резюме (поле data)
@@ -24,23 +24,23 @@ area | integer | Идентификатор населённого пункта 
 birthday | date | Дата рождения (в формате `YYYY-mm-dd`)
 citizenship | string | Гражданство
 courses | array | Массив пройденных курсов (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
-driving_license | array | Массив категорий прав (возможные значения: "a", "b", "c", "d", "e", "be", "ce", "de", "tm", "tb")
+driving_license | array | Массив категорий прав (возможные значения: `a, b, c, d, e, be, ce, de, tm, tb`)
 education | array | Массив образований (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 email | string | Электронная почта
 employment | string | Тип трудоустройства (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
-experience | string | Опыт работы ("no" - Нет опыта, "one_three" - От 1 до 3 лет)
+experience | string | Опыт работы (`no` - Нет опыта, `one_three` - От 1 до 3 лет)
 firstname | string | Имя
-gender | string | Пол ("male" или "female")
-has_car | string | Имеется ли собственный автомобиль ("yes" или "no")
+gender | string | Пол (`male` или `female`)
+has_car | string | Имеется ли собственный автомобиль (`yes` или `no`)
 hobby | string | Хобби
 languages | array | Массив иностранных языков (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 metro_station | string | Станция метро
 noexp_reason | string | Причина, по которой нет опыта работы
 phone | string | Номер телефона
-photo_loaded | integer | Загружена ли фотография (1 или 0)
+photo_loaded | integer | Загружена ли фотография (`1` или `0`)
 places_of_work | array | Массив мест работы (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
 position | string | Желаемая позиция
-relocative | string | Согласен ли на переезд ("yes" или "no")
+relocative | string | Согласен ли на переезд (`yes` или `no`)
 salary | string | Желаемая заработная плата
 schedule | string | Расписание работы
 skills | array | Массив навыков (см. [objects](https://github.com/len0xx/career-api/blob/main/docs/objects.md))
