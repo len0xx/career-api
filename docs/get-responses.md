@@ -29,40 +29,38 @@ GET /api/get-responses/
     "success": true,
     "responses": [
         {
-            "id": "1600",
-            "company_id": "1120",
-            "vacancy_id": "52184",
-            "user_id": "8905",
-            "resume_id": "6812",
+            "id": 1600,
+            "company_id": 1120,
+            "vacancy_id": 52184,
+            "user_id": 8905,
+            "resume": {...},
             "status": "order",
-            "interview_date": "0",
             "comment": "",
-            "showed": "1",
+            "showed": 1,
             "showed_date": "2021-07-16 12:16:49",
             "create_date": "2021-06-03 04:58:32",
-            "update_date": "0",
-            "create_day_period": "morning",
-            "create_day_of_week": "4"
+            "update_date": 0,
+            "interview_date": 0
         },
         {
-            "id": "1826",
-            "company_id": "1120",
-            "vacancy_id": "34821",
-            "user_id": "15602",
-            "resume_id": "10223",
+            "id": 1826,
+            "company_id": 1120,
+            "vacancy_id": 34821,
+            "user_id": 15602,
+            "resume": {...},
             "status": "decline",
-            "interview_date": "0",
             "comment": "",
-            "showed": "1",
+            "showed": 1,
             "showed_date": "2021-07-16 12:16:49",
             "create_date": "2021-06-03 14:18:39",
             "update_date": "2021-06-10 05:10:02",
-            "create_day_period": "afternoon",
-            "create_day_of_week": "0"
+            "interview_date": "0"
         }
     ]
 }
 ```
+
+Описание объекта резюме — [resume](https://github.com/len0xx/career-api/blob/main/docs/resume.md)
 
 ## Ошибки
 

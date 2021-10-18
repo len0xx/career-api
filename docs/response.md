@@ -10,7 +10,7 @@ id | integer | Идентификатор отклика
 vacancy_id | integer | Идентификатор вакансии
 user_id | integer | Идентификатор откликнувшегося пользователя
 resume | resume | Объект типа [resume](https://github.com/len0xx/career-api/blob/main/docs/resume.md)
-status | enum | Статус отклика (`orded`, `decline`, `interview`, `abort` или `''`)
+status | enum | Статус отклика (`order`, `decline`, `interview`, `abort` или `''`)
 comment | string | Комментарий
 showed | integer | Был ли показан отклик (1 или 0)
 showed_date | date | Дата показа (в формате `YYYY-mm-dd hh:mm:ss`)
@@ -25,7 +25,7 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
     "company_id": 1120,
     "vacancy_id": 52184,
     "user_id": 8905,
-    "resume_id": {
+    "resume": {
         "photo_url": "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/resume/photo/6812.jpg",
         "attachment_id": null,
         "link": "https://xn--80adjbxl0aeb4ii6a.xn--p1ai/364c7b963682347/Открыть/Резюме.pdf",
@@ -144,7 +144,7 @@ interview_date | date | Дата интервью (в формате `YYYY-mm-dd
     "showed": 1,
     "showed_date": "2021-07-16 12:16:49",
     "create_date": "2021-06-03 04:58:32",
-    "update_date": 0
-    "interview_date": 0,
+    "update_date": 0,
+    "interview_date": 0
 }
 ```
