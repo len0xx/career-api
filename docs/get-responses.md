@@ -39,8 +39,8 @@ GET /api/get-responses/
             "showed": 1,
             "showed_date": "2021-07-16 12:16:49",
             "create_date": "2021-06-03 04:58:32",
-            "update_date": 0,
-            "interview_date": 0
+            "update_date": "0",
+            "interview_date": "0"
         },
         {
             "id": 1826,
