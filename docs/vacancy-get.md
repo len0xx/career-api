@@ -35,6 +35,7 @@ GET /api/vacancy/get/
         "create_date": "2021-01-11 07:00:49",
         "min_salary": 41000,
         "max_salary": 60000,
+        "link": "https://времякарьеры.рф/?post_type=post&p=345678",
         "categories": [
             {
                 "id": 51,

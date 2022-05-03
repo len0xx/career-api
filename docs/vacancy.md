@@ -11,6 +11,7 @@ title | string | Название вакансии
 create_date | date | Дата создания (в формате `YYYY-mm-dd hh:mm:ss`)
 min_salary | integer | Минимальная зарплата
 max_salary | integer | Максимальная зарплата
+link | string | Ссылка на созданную вакансию на портале
 categories | array | Категории, к которым относится вакансия, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 areas | array | Населённые пункты, привязанные к вакансии, в виде массива объектов типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
 company | object | Компания, к которой относится вакансия, в виде объекта типа [термин](https://github.com/len0xx/career-api/blob/main/docs/terms.md)
@@ -32,6 +33,7 @@ working_conditions | string | Условия работы
     "create_date": "2021-01-11 07:00:49",
     "min_salary": 41000,
     "max_salary": 60000,
+    "link": "https://времякарьеры.рф/?post_type=post&p=345678",
     "categories": [
         {
             "id": 51,
